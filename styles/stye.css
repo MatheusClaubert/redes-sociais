@@ -27,7 +27,6 @@ section#telefone{
     left: 50%;
     height: 627px;
     width: 311px;
-    background-color: blue;
     transform: translate(-50%, -50%);
     background: url('../imagens/frame-iphone.png') 
     no-repeat top center;
@@ -54,9 +53,9 @@ section#redes-sociais img{
     box-sizing: border-box;
 }
 section#redes-sociais img:hover{
-    border: 3px solid rgba(255, 255, 255, 0.635);
+    border: 3px solid rgba(0, 0, 0, 0.635);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px black;
-    transition: transform .3s, border 1s;
+    transition: transform .1s, border 1s;
     
 }
